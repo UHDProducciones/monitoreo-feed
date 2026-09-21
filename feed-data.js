@@ -1,6 +1,34 @@
 window.FEED_DATA = {
-  "actualizado": "2026-09-21T15:49:22.000Z",
+  "actualizado": "2026-09-21T16:53:51.000Z",
   "posts": [
+    {
+      "id": "2102072414226075978",
+      "cuenta": "Gorderizador",
+      "red": "x",
+      "fecha": "2026-09-21T16:28:12.000Z",
+      "texto": "🔴 AHORA | Diputado Diego Schalper: \"El principal enemigo de la candidatura de Bachelet se llama Gabriel Boric Font\"",
+      "url": "https://x.com/Gorderizador/status/2102072414226075978",
+      "imagen": "https://pbs.twimg.com/amplify_video_thumb/2102072187599384576/img/vjX-0RVWQh1005h1.jpg"
+    },
+    {
+      "id": "Ddjj7q4D5g8",
+      "cuenta": "gobiernodechile",
+      "red": "instagram",
+      "fecha": "2026-09-21T16:12:31.000Z",
+      "texto": "¡Sumamos fuerzas para cuidar nuestro transporte! 🚌✨\n\nLanzamos el Plan Piloto \"Agentes Antievasión\": un equipo de 90 personas desplegadas en el servicio 107 de Red Movilidad que recorre 13 comunas y tiene un alto flujo de pasajeros.\n\n🎯 ¿Qué buscamos?\n• Fomentar la cultura de pago y reducir la evasión.\n• Crear nuevas oportunidades de empleo.\n• Complementar las fiscalizaciones de inspectores y Carabineros.\n\nEvita multas, sube por adelante y valida tu tarjeta. ¡El transporte público lo cuidamos entre todos!",
+      "url": "https://www.instagram.com/mttchile/p/Ddjj7q4D5g8/",
+      "repost": true,
+      "autor_original": "mttchile",
+      "imagen": "https://instagram.fscl37-1.fna.fbcdn.net/v/t39.30808-6/792406053_1551326667029063_810952333251999357_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzk5MTE5MTcwOTU5Nzc4MzI4MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTYzOC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=j7EjeKlzKoIQ7kNvwE8KwNl&_nc_oc=Adp9AgUDmnKK6x87e-0Qfnlw4bjbCILVnoj9IHJylsXcPUq9USIOnJN8d2TolcRpulY&_nc_ad=z-m&_nc_cid=1014&_nc_zt=23&_nc_ht=instagram.fscl37-1.fna&_nc_gid=_ACqH5ug_xFJ3P636-h6ww&_nc_ss=7a22e&oh=00_AQIaDpcF3Gj0OX-0rogVBX34_dpOl5rgPOll3iVFsvMX0g&oe=6AB7345A"
+    },
+    {
+      "id": "2102062826185490820",
+      "cuenta": "DRESTRUM__Pl",
+      "red": "x",
+      "fecha": "2026-09-21T15:50:06.000Z",
+      "texto": "Un lunes como hoy pero de 2024, Manuel Monsalve no llegó a dar el balance policial post fiestas patrias, porque (según tesis de fiscalía) se violó a una subalterna.\n\n Efemérides.",
+      "url": "https://x.com/DRESTRUM__Pl/status/2102062826185490820"
+    },
     {
       "id": "DdjfbhknMUB",
       "cuenta": "ipoduje",
