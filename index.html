@@ -308,20 +308,23 @@ function imagenSegura(u) {
   return typeof u === "string" && u.indexOf("https://") === 0;
 }
 
-/* Lee feed-data.js directo desde GitHub (raw) agregándolo como script, en vez del
-   feed-data.js empaquetado en el build de Netlify. Así el agente puede actualizar los
-   datos con git push cada 30 min sin que cada push dispare (y cobre) un deploy de Netlify:
-   el HTML de este sitio solo necesita reconstruirse cuando cambia el propio HTML.
-   (Requiere que el repo UHDProducciones/monitoreo-feed sea público.) */
+/* Lee feed-data.js directo desde GitHub (raw) en vez del feed-data.js empaquetado en el
+   build de Netlify. Así el agente puede actualizar los datos con git push cada 30 min sin
+   que cada push dispare (y cobre) un deploy de Netlify: el HTML de este sitio solo necesita
+   reconstruirse cuando cambia el propio HTML. (Requiere que el repo
+   UHDProducciones/monitoreo-feed sea público.)
+   GitHub sirve los .js "raw" con Content-Type: text/plain + X-Content-Type-Options: nosniff,
+   así que el navegador bloquea ejecutarlo como <script src>. Por eso se pide con fetch() y
+   se extrae el objeto con JSON.parse en vez de dejar que el navegador lo corra como script. */
 const FEED_DATA_URL = "https://raw.githubusercontent.com/UHDProducciones/monitoreo-feed/main/feed-data.js";
 function leerDatos() {
-  return new Promise(function (ok, fallo) {
-    const s = document.createElement("script");
-    s.src = FEED_DATA_URL + "?t=" + Date.now();
-    s.onload = function () { const d = window.FEED_DATA; s.remove(); d ? ok(d) : fallo(); };
-    s.onerror = function () { s.remove(); fallo(); };
-    document.head.appendChild(s);
-  });
+  return fetch(FEED_DATA_URL + "?t=" + Date.now(), { cache: "no-store" })
+    .then(function (r) { if (!r.ok) throw new Error("http " + r.status); return r.text(); })
+    .then(function (texto) {
+      const m = texto.match(/window\.FEED_DATA\s*=\s*([\s\S]*?);\s*$/);
+      if (!m) throw new Error("formato inesperado");
+      return JSON.parse(m[1]);
+    });
 }
 
 function aplicar(d) {
