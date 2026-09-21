@@ -1,6 +1,26 @@
 window.FEED_DATA = {
-  "actualizado": "2026-09-21T16:53:51.000Z",
+  "actualizado": "2026-09-21T17:44:44.000Z",
   "posts": [
+    {
+      "id": "Ddjs8kcJkLs",
+      "cuenta": "gobiernodechile",
+      "red": "instagram",
+      "fecha": "2026-09-21T17:34:24.000Z",
+      "texto": "El biministro del Interior y Secretaría General de Gobierno, Claudio Alvarado, participó en la conmemoración de los 183 años de la hazaña de la Goleta Ancud, destacando el aporte de Chiloé y Magallanes en la construcción de la historia y soberanía de nuestro país.\n\nEn esta fecha tan significativa, anunció también que el Gobierno apoyará que el 21 de septiembre sea declarado feriado regional en Magallanes, como un reconocimiento a su legado y al aporte de tantas generaciones que han hecho patria en este territorio austral.",
+      "url": "https://www.instagram.com/voceriadegobierno/reel/Ddjs8kcJkLs/",
+      "repost": true,
+      "autor_original": "voceriadegobierno",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/819785049_18564015601077009_5162077361663960874_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=107&ig_cache_key=Mzk5MTIzMTM3MTEyMjQ1OTM3MjE4NTY0MDE1NTk1MDc3MDA5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjc2OC5zZHIudmlkZW9fdXNlcl91cGxvYWRlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=9_mEAS6JrbsQ7kNvwFd6TS7&_nc_oc=AdoEiKwNx39xjaS5NspcrKLh6p2B7spS1iV7sA27vUoTJGk_AL5pjEnkg8Lh-BwyUmY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=iQy8J-7bQZXMUllnobu8YA&_nc_ss=7a22e&oh=00_AQKKhbepoYV2mSInN8C1NXrP61WEimalsw2EqGvKh2IZmA&oe=6AB7494E"
+    },
+    {
+      "id": "2102084069999743057",
+      "cuenta": "Gorderizador",
+      "red": "x",
+      "fecha": "2026-09-21T17:14:31.000Z",
+      "texto": "Balance de seguridad Fiestas Patrias\n\nCuando un gobierno hace la pega SE NOTA",
+      "url": "https://x.com/Gorderizador/status/2102084069999743057",
+      "imagen": "https://pbs.twimg.com/media/HSwaDYvXkAAK_A8?format=jpg&name=medium"
+    },
     {
       "id": "2102072414226075978",
       "cuenta": "Gorderizador",
