@@ -1,6 +1,14 @@
 window.FEED_DATA = {
-  "actualizado": "2026-09-21T17:44:44.000Z",
+  "actualizado": "2026-09-21T18:07:00.000Z",
   "posts": [
+    {
+      "id": "2102093792236970030",
+      "cuenta": "Gorderizador",
+      "red": "x",
+      "fecha": "2026-09-21T17:53:09.000Z",
+      "texto": "🔴HAY QUE APLICAR EL REGISTRO DE VÁNDALOS\n\nEstudiantes del INBA denuncian que son amenazados con cuchillos por otros menores para que se encapuchen y participen en manifestaciones violentas que interrumpen la jornada escolar.",
+      "url": "https://x.com/Gorderizador/status/2102093792236970030"
+    },
     {
       "id": "Ddjs8kcJkLs",
       "cuenta": "gobiernodechile",
