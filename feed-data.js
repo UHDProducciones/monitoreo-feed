@@ -1,6 +1,33 @@
 window.FEED_DATA = {
-  "actualizado": "2026-09-21T18:07:00.000Z",
+  "actualizado": "2026-09-21T18:45:00.000Z",
   "posts": [
+    {
+      "id": "2102102318686589233",
+      "cuenta": "DRESTRUM__Pl",
+      "red": "x",
+      "fecha": "2026-09-21T18:27:02.000Z",
+      "texto": "El buen trabajo del gobierno en seguridad, liderado por el ministro @martinarrau está dando frutos muy rápido. 👍",
+      "url": "https://x.com/DRESTRUM__Pl/status/2102102318686589233",
+      "imagen": "https://pbs.twimg.com/media/HSwq5NJXsAAJtOh?format=jpg&name=medium"
+    },
+    {
+      "id": "Ddjzxyhm7FF",
+      "cuenta": "gobiernodechile",
+      "red": "instagram",
+      "fecha": "2026-09-21T18:30:59.000Z",
+      "texto": "La Parada Militar más grande en 17 años 🇨🇱\n\nEn el marco de las Fiestas Patrias, la Gran Parada Militar volvió a reunir a miles de personas para conmemorar las Glorias del Ejército y reconocer la labor de quienes sirven a nuestro país.\n\nUna ceremonia que refleja nuestras tradiciones y que, este año, también contó con nuevos participantes que comienzan a escribir su propia historia de servicio. \n\nConoce algunos de los momentos que marcaron esta edición.",
+      "url": "https://www.instagram.com/gobiernodechile/p/Ddjzxyhm7FF/",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/817531772_18628678456041650_2638086023868262521_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&ig_cache_key=Mzk5MTI2MDk4NzI0MzEzNjYxNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzIwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=gcUGLGHmgY0Q7kNvwECoFvM&_nc_oc=Adq1hc4j9UhNnBk6mEVCtGgubYkBrm4cMvB80Pg1i7e2n4BcscC7ySp5UMxMyfvEPSo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=H-tDeZbxMa0PuwFxrwR2Bg&_nc_ss=7a22e&oh=00_AQI9Uzo4yb_sLbpLCMpD8U6FmHUi5eqVAwCkl0YsLz0G0Q&oe=6AB7628D"
+    },
+    {
+      "id": "DdjzidTnGd5",
+      "cuenta": "ipoduje",
+      "red": "instagram",
+      "fecha": "2026-09-21T18:28:54.000Z",
+      "texto": "Hoy nos reunimos con el ministro del Trabajo, Tomás Rau, para avanzar en el plan de activación del empleo en el sector de la construcción, tal como nos ha pedido el Presidente José Antonio Kast.\n\nLa construcción es clave para recuperar empleos y, al mismo tiempo, acelerar la entrega de viviendas y obras que las familias necesitan. Por eso, estamos coordinando acciones para activar nuevos proyectos, acelerar obras y reducir la burocracia que hoy las retrasa.\n\nMañana anunciaremos el Plan de Emergencia Laboral en materia de vivienda,  con medidas para impulsar la actividad y generar más oportunidades de trabajo de aquí a fin de año.",
+      "url": "https://www.instagram.com/ipoduje/p/DdjzidTnGd5/",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/808614356_18338482399284946_1283926108836884215_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=Mzk5MTI2MDIxMDkyODIxMzE4Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Ni5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=XeQshQVSsGwQ7kNvwHeaYe5&_nc_oc=AdpRltImtWGxQnFSNij4uVD3osjq_RVC30-Aw7aeikNijJlGVQRr1uk-KPjZ5762YFs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=2UXEZ8MA-NsFdrlo6qT-CA&_nc_ss=7a22e&oh=00_AQK6cYVe85_DK9DtgP-2JBq50aFfcQ5ljM6JM4KDzXvY_w&oe=6AB75587"
+    },
     {
       "id": "2102093792236970030",
       "cuenta": "Gorderizador",
