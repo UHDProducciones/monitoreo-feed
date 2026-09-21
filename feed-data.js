@@ -1,6 +1,15 @@
 window.FEED_DATA = {
-  "actualizado": "2026-09-21T21:39:21.000Z",
+  "actualizado": "2026-09-21T22:08:01.000Z",
   "posts": [
+    {
+      "id": "DdkLhERuYcX",
+      "cuenta": "martin.arrau",
+      "red": "instagram",
+      "fecha": "2026-09-21T21:59:56.000Z",
+      "texto": "Estuvimos en Contulmo, escuchamos a la familia Grollmus y reafirmamos que esta no era solo su causa: era una causa país.\n\nComo Ministerio fuimos querellantes. Hoy la justicia entrega una señal contundente: la violencia no queda impune y el Estado no retrocede.\n\n#chilecontraelcrimen",
+      "url": "https://www.instagram.com/martin.arrau/reel/DdkLhERuYcX/",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/819995348_18365556727244873_8640667506487369234_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=Mzk5MTM2NTgyMDYwMzc5NTIyMzE4MzY1NTU2NzIxMjQ0ODcz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=nPHeljYL3EkQ7kNvwEm8kQz&_nc_oc=AdpR0heClH0bWsCw9F4dW_6kaYrGeBmbSeoXXgw8ZHdICFF1X971KzpN8IHgx3UBTiE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=1K0IumLgqkipIgR512MgOw&_nc_ss=7a22e&oh=00_AQJx2BVIJT6V_E1-qrXI7Kr3N5VJi8S6Cgc34Lc2PtIgTA&oe=6AB795B7"
+    },
     {
       "id": "DdkJEhZkfzV",
       "cuenta": "gobiernodechile",
