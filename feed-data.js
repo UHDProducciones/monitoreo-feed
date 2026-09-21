@@ -1,0 +1,112 @@
+window.FEED_DATA = {
+  "actualizado": "2026-09-21T15:49:22.000Z",
+  "posts": [
+    {
+      "id": "DdjfbhknMUB",
+      "cuenta": "ipoduje",
+      "red": "instagram",
+      "fecha": "2026-09-21T15:33:11.000Z",
+      "texto": "🏠 Hoy, junto a la subsecretaria Natalia Aguilar, nos reunimos con la nueva directiva de la Cámara Chilena de la Construcción, encabezada por su presidente, Raimundo Rencoret, para acordar una agenda de trabajo que nos permita avanzar más rápido en vivienda y empleo.\n\nEstablecimos un protocolo de coordinación entre las Seremi, Serviu y las direcciones regionales de la CChC, además de instancias nacionales para hacer seguimiento a los proyectos y destrabar lo que sea necesario.\n\nEl Presidente José Antonio Kast nos ha pedido poner a Chile en Modo Empleo, y la vivienda tendrá un rol central en esa tarea. Queremos que la construcción vuelva a crecer, se generen más oportunidades de trabajo y más familias puedan acceder a su vivienda.",
+      "url": "https://www.instagram.com/ipoduje/p/DdjfbhknMUB/",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/796571228_18338458354284946_5280353212581283354_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=Mzk5MTE3MTcyNzkzMjc5MTcwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=B0GFxNeKfc4Q7kNvwESBpTx&_nc_oc=AdpyikY0lzLXZeaFLFFnDsPT8Pee0aWwGf0sEpubwbN_9hZAzCAFKpc8jRryB1jNLa4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=pya0uu6qMRx4AOO3YO0f3g&_nc_ss=7a22e&oh=00_AQJAYs_Sc-1NBqwjkUJ0aqAboUebw0qx3dlxCN4824XjXQ&oe=6AB718F4"
+    },
+    {
+      "id": "Ddjed1NjuFE",
+      "cuenta": "gobiernodechile",
+      "red": "instagram",
+      "fecha": "2026-09-21T15:24:46.000Z",
+      "texto": "🚨 Nuevo golpe al narcotráfico en la Región Metropolitana.\n\nLa PDI, en coordinación con la Fiscalía Regional Metropolitana Oriente, incautó más de 800 kilos de cannabis y detuvo a un integrante de una estructura criminal dedicada a la recepción, acopio y distribución de grandes cantidades de droga.\n\nUn importante resultado del trabajo investigativo y operativo de nuestras policías para desarticular organizaciones criminales y sacar grandes cantidades de droga de circulación.\n#ChileContraElCrimen",
+      "url": "https://www.instagram.com/p/Ddjed1NjuFE/",
+      "repost": true,
+      "autor_original": "minsegpublicacl",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/796460833_17919872598442857_9216252660904224755_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=Mzk5MTE2NzU0MTIxNTc0MjQxMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzI4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Zu1Y3bB2HqAQ7kNvwFaUnqP&_nc_oc=Adpx6H5RCUfTDnruilTO70znMiZRE8BSiqcDvwbN_8iV0Kx0p6d5LyJf5T-rPPY_2JA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=JFuA45RAMRiF1ZnNE3e_Pg&_nc_ss=7a22e&oh=00_AQLjLxLBZdUZbqlWp_edIhaM-RBsKYVs3gNZjAih00aBbA&oe=6AB7219C"
+    },
+    {
+      "id": "2102050846095634853",
+      "cuenta": "Gorderizador",
+      "red": "x",
+      "fecha": "2026-09-21T15:02:30.000Z",
+      "texto": "Todavía ando con caña y la ptm\n\nEstoy que me mando una pilsen...",
+      "url": "https://x.com/Gorderizador/status/2102050846095634853"
+    },
+    {
+      "id": "2102047121612427460",
+      "cuenta": "Gorderizador",
+      "red": "x",
+      "fecha": "2026-09-21T14:47:42.000Z",
+      "texto": "🔴BOMBAZO SOCIAL del biministro @louisdegrange\n\nDesde el ministerio de obras públicas anunciaron que de aquí a fin de año bajará el valor del TAG en algunas concesionarias lo que significaría un importante alivio para el bolsillo de miles de Chilenos",
+      "url": "https://x.com/Gorderizador/status/2102047121612427460",
+      "imagen": "https://pbs.twimg.com/amplify_video_thumb/2102046992658481152/img/fukG4_gMS4KMC2cA.jpg"
+    },
+    {
+      "id": "2102044009581490583",
+      "cuenta": "DRESTRUM__Pl",
+      "red": "x",
+      "fecha": "2026-09-21T14:35:20.000Z",
+      "texto": "🔴☠️ LA PEOR CANDIDATA DE LA HISTORIA ☠️",
+      "url": "https://x.com/DRESTRUM__Pl/status/2102044009581490583",
+      "imagen": "https://pbs.twimg.com/media/HSv14kGXIAAoBcj?format=jpg&name=medium"
+    },
+    {
+      "id": "DdjYSZxEecQ",
+      "cuenta": "presidente_kast",
+      "red": "instagram",
+      "fecha": "2026-09-21T14:30:46.000Z",
+      "texto": "Chile tiene mucho que ofrecer al mundo y el mundo tiene que saberlo. Acabamos de aterrizar en Nueva York, donde estaremos cuatro días trabajando para atraer inversión, abrir mercados y representar a nuestro país ante Naciones Unidas.",
+      "url": "https://www.instagram.com/presidente_kast/p/DdjYSZxEecQ/",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/818971862_18076688519529444_3721369904867259110_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=1&ig_cache_key=Mzk5MTEzODAwMTM3OTI0MzQxMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczNi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=xN856oBGXAIQ7kNvwHYwJ__&_nc_oc=Adqlr-6JPItvkXh2lPIx_1N3DVndSVHbSkhrv254VPKHDeULfLQlJFuRjQXMBOeHT3c&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=N9THHDkR-J3B7qeFUQ2F4Q&_nc_ss=7a22e&oh=00_AQJPmekPfPcuYy9ohGrE5nb2VEvl479xc_LseCrmBe4a-g&oe=6AB7273A"
+    },
+    {
+      "id": "DdjXkKouR2l",
+      "cuenta": "martin.arrau",
+      "red": "instagram",
+      "fecha": "2026-09-21T14:26:23.000Z",
+      "texto": "Una cifra récord: 2.845 jóvenes postularon este año a la Escuela de Carabineros, el número más alto de los últimos 20 años.\n\nNo es casualidad. Recuperar el respeto por la autoridad y volver a poner la seguridad entre las prioridades del Estado se traduce en hechos concretos: más jóvenes dispuestos a servir a Chile y más y mejores carabineros para proteger a las familias.\n\nEste impulso debe alcanzar también a Gendarmería y a la Policía de Investigaciones. Por eso estamos promoviendo proyectos de ley para modernizar sus carreras, fortalecer su formación y entregarles el respaldo que necesitan para cumplir su misión.\n\nLa seguridad se recupera con instituciones fuertes, respetadas y plenamente respaldadas por el Estado.",
+      "url": "https://www.instagram.com/martin.arrau/reel/DdjXkKouR2l/",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.71878-15/819538968_2153545228924794_8340147838430149648_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=Mzk5MTEzNzMzNTE3MTk0Nzk0MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=Zt9g-yIOI18Q7kNvwG518Y7&_nc_oc=AdrrQifxH6IxCE8Qs9mP-NaPf2exlZ0Ii4Z-AieOr3d3DXm0uF9iMj4YR7QsDzt1Ulg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=x_AN_5kp7OO9C3_FH3VC4w&_nc_ss=7a22e&oh=00_AQI1A0YuIfyJg_46Ggpwk_Xjc20igNOnkkbVq8K6hTfpRA&oe=6AB72A8C"
+    },
+    {
+      "id": "2102040059864056030",
+      "cuenta": "PresidenteKast",
+      "red": "x",
+      "fecha": "2026-09-21T14:19:38.000Z",
+      "texto": "Chile tiene mucho que ofrecer al mundo y el mundo tiene que saberlo. Acabamos de aterrizar en Nueva York, donde estaremos cuatro días trabajando para atraer inversión, abrir mercados y representar a nuestro país ante Naciones Unidas.",
+      "url": "https://x.com/PresidenteKast/status/2102040059864056030",
+      "imagen": "https://pbs.twimg.com/media/HSvySwlWAAA9HNo?format=jpg&name=medium"
+    },
+    {
+      "id": "2102037639058604101",
+      "cuenta": "ContrapoderCH",
+      "red": "x",
+      "fecha": "2026-09-21T14:10:01.000Z",
+      "texto": "🔴 PRESENTÓ SU RENUNCIA| Contraloría oficia al Servicio Civil por contratación de activista venezolana Lucy Depablos",
+      "url": "https://x.com/ContrapoderCH/status/2102037639058604101"
+    },
+    {
+      "id": "2102034302678475057",
+      "cuenta": "ElHiloCL",
+      "red": "x",
+      "fecha": "2026-09-21T13:56:46.000Z",
+      "texto": "🔴 URGENTE\n\n🔷 El ex embajador Chileno en EEUU, Don Gabriel Valdés confirma un plan coordinado entre Kast y la administración Trump para torpedear la postulación de Bachelet a la ONU\n\n\"Me hago cargo de mis palabras\"\n\nGRAVISIMO\n\n#RenunciaKast",
+      "url": "https://x.com/ElHiloCL/status/2102034302678475057"
+    },
+    {
+      "id": "DdhnZ5mB0pZ",
+      "cuenta": "ipoduje",
+      "red": "instagram",
+      "fecha": "2026-09-20T22:07:17.000Z",
+      "texto": "🏠 Queremos que más familias puedan disfrutar de un hogar en buenas condiciones. Por eso, les respondo las principales dudas sobre la Tarjeta Banco de Materiales para Jefas de Hogar.\n\nEste nuevo beneficio del MINVU permite a mujeres jefas de hogar reparar techumbres, baños, cercos y rejas, con hasta 40 UF en materiales de construcción.\n\nLa postulación es 100% en línea con ClaveÚnica hasta el 9 de octubre y beneficiará a 25.000 jefas de hogar durante este año.\n\n▶️ Revisen el video y conozcan todos los detalles para postular.",
+      "url": "https://www.instagram.com/ipoduje/reel/DdhnZ5mB0pZ/",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.71878-15/796270161_1605093451004638_5114639715035548974_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=107&ig_cache_key=Mzk5MDY0NDA0ODQ2OTExNzUyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=lMjrFEUjo7AQ7kNvwGwdvpZ&_nc_oc=Ado_AOk908IcrOJ3qtc7HepCZjMZxNY18FhILkwWlC2Hkox77_D4YxwHrZhaLM2Useo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=AaN3Cl8dV9gpEluUrU4fkA&_nc_ss=7a22e&oh=00_AQKky54jafQLkb-265xoFcmKhpfJc_we5XFp67s0kDMe0A&oe=6AB73717"
+    },
+    {
+      "id": "DdcXacfhelt",
+      "cuenta": "gobiernodechile",
+      "red": "instagram",
+      "fecha": "2026-09-18T21:09:40.000Z",
+      "texto": "🇨🇱 ¡Celebramos nuestras tradiciones en La Moneda!\n\nCon cueca, el Presidente de la República, José Antonio Kast, encabezó el tradicional esquinazo de Fiestas Patrias junto a autoridades de Gobierno, representantes de las Fuerzas Armadas y de Orden y conjuntos folclóricos.\n\nEn este 18, celebramos nuestras raíces, nuestra historia y todo aquello que nos une como chilenos.\n\n¡Que viva nuestra tierra, sus tradiciones y su gente!\n\n¡Que viva Chile! ❤️\n\n#ChileTeQuiero",
+      "url": "https://www.instagram.com/gobiernodechile/reel/DdcXacfhelt/",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/814800520_18627709669041650_6518366391399826487_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=102&ig_cache_key=Mzk4OTE2NjM0MjMxMzIwODE3MzE4NjI3NzA5NjY2MDQxNjUw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTYuc2RyLnZpZGVvX3VzZXJfdXBsb2FkZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=1-igQd9numwQ7kNvwE811Hq&_nc_oc=AdpGVMH-2EqMIoFKF2Wy593lse5YqAnPda5-fe_tuL5VKS-eaMoNQHjjl-FEHgyDIb0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=Bwlk8cf_OxPdUwjYvryTpQ&_nc_ss=7a22e&oh=00_AQL-5mqTwxElvQufPTX8uazNYzC6zljd1UDx_4WYUXW5zw&oe=6AB733D4"
+    }
+  ]
+};

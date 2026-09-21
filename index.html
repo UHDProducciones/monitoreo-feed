@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Monitoreo en vivo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --fondo: #EEF1F5;
+    --panel: #FFFFFF;
+    --tinta: #16213A;
+    --tinta-suave: #55617A;
+    --linea: #D5DBE5;
+    --azul: #1F4FA3;
+    --azul-suave: #DCE6F7;
+    --rojo: #C8261B;
+    --rojo-suave: #F1CFCB;
+    --fuente-titulo: "Archivo", "Helvetica Neue", Arial, sans-serif;
+    --fuente-texto: "Source Sans 3", "Segoe UI", Roboto, Arial, sans-serif;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--fondo);
+    color: var(--tinta);
+    font-family: var(--fuente-texto);
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  a { color: var(--azul); }
+  a:focus-visible, button:focus-visible {
+    outline: 3px solid var(--azul);
+    outline-offset: 2px;
+  }
+
+  /* Barra superior */
+  .barra { background: var(--tinta); color: #fff; }
+  .barra__interior {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 12px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 24px;
+  }
+  .barra h1 {
+    font-family: var(--fuente-titulo);
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0;
+    margin-right: auto;
+  }
+  .barra__estado { font-size: 0.9rem; color: #C5CDDD; }
+
+  /* Distribución: transmisión a la izquierda, feed a la derecha */
+  .layout {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 24px 20px 48px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  @media (min-width: 1000px) {
+    .layout { grid-template-columns: minmax(0, 1.5fr) minmax(340px, 1fr); align-items: start; }
+    .col-video { position: sticky; top: 20px; }
+    .feed-lista { max-height: calc(100vh - 210px); overflow-y: auto; padding-right: 6px; }
+  }
+
+  h2 {
+    font-family: var(--fuente-titulo);
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin: 0 0 12px;
+  }
+
+  .video {
+    aspect-ratio: 16 / 9;
+    background: #000;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .video iframe { width: 100%; height: 100%; border: 0; display: block; }
+
+  /* Cabecera del feed */
+  .feed-cab {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px 16px;
+    margin-bottom: 12px;
+  }
+  .feed-cab h2 { margin: 0; }
+
+  .filtros { display: flex; flex-wrap: wrap; gap: 6px; }
+  .filtro {
+    font-family: var(--fuente-texto);
+    font-size: 0.9rem;
+    font-weight: 600;
+    background: var(--panel);
+    color: var(--tinta);
+    border: 1px solid var(--linea);
+    border-radius: 999px;
+    padding: 5px 12px;
+    cursor: pointer;
+  }
+  .filtro[aria-pressed="true"] { background: var(--tinta); color: #fff; border-color: var(--tinta); }
+  .filtro--izq { color: var(--rojo); border-color: var(--rojo-suave); }
+  .filtro--izq[aria-pressed="true"] { background: var(--rojo); color: #fff; border-color: var(--rojo); }
+
+  .leidos {
+    display: none;
+    font-family: var(--fuente-texto);
+    font-size: 0.9rem;
+    font-weight: 600;
+    background: var(--azul);
+    color: #fff;
+    border: 0;
+    border-radius: 6px;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin-bottom: 12px;
+  }
+  .leidos.visible { display: inline-block; }
+
+  .aviso {
+    display: none;
+    margin: 0 0 12px;
+    padding: 10px 14px;
+    background: #FFF3D6;
+    border: 1px solid #E8C979;
+    border-radius: 6px;
+    font-size: 0.95rem;
+  }
+  .aviso.visible { display: block; }
+
+  /* Publicaciones */
+  .feed { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+
+  .post {
+    background: var(--panel);
+    border: 1px solid var(--linea);
+    border-left: 4px solid var(--azul);
+    border-radius: 8px;
+    padding: 12px 14px;
+  }
+  .post--izq { border-left-color: var(--rojo); }
+  .post--nuevo { background: #F5F9FF; border-color: var(--azul); border-left-width: 4px; }
+  .post--izq.post--nuevo { background: #FFF6F5; border-color: var(--rojo); }
+
+  /* Aviso de repost: va sobre la cabecera del post */
+  .post__repost {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 2px 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--tinta-suave);
+    margin-bottom: 4px;
+    overflow-wrap: anywhere;
+  }
+  .post__repost-icono { font-weight: 400; color: var(--azul); }
+  .post--izq .post__repost-icono { color: var(--rojo); }
+
+  .post__cab {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px 10px;
+    margin-bottom: 6px;
+  }
+  .post__cuenta { font-family: var(--fuente-titulo); font-weight: 600; overflow-wrap: anywhere; }
+  .post__red { font-size: 0.85rem; color: var(--tinta-suave); }
+  .post__izq { font-size: 0.85rem; font-weight: 600; color: var(--rojo); }
+  .post__hora { font-size: 0.85rem; color: var(--tinta-suave); margin-left: auto; }
+  .post__nuevo {
+    font-size: 0.8rem;
+    font-weight: 600;
+    background: var(--azul);
+    color: #fff;
+    border-radius: 999px;
+    padding: 0 8px;
+  }
+  .post--izq .post__nuevo { background: var(--rojo); }
+
+  .post__texto { margin: 0 0 8px; white-space: pre-wrap; overflow-wrap: anywhere; }
+  .post__img { display: block; max-width: 100%; border-radius: 6px; margin: 0 0 8px; }
+  .post__enlace { font-size: 0.9rem; font-weight: 600; }
+  .post--izq .post__enlace { color: var(--rojo); }
+
+  .vacio { color: var(--tinta-suave); margin: 8px 0; }
+</style>
+</head>
+<body>
+
+<header class="barra">
+  <div class="barra__interior">
+    <h1>Monitoreo en vivo</h1>
+    <span class="barra__estado" id="estado">Cargando feed…</span>
+  </div>
+</header>
+
+<div class="layout">
+
+  <section class="col-video" aria-labelledby="t-video">
+    <h2 id="t-video">Transmisión oficial de la Presidencia</h2>
+    <div class="video">
+      <iframe
+        title="Transmisión oficial en vivo de la Presidencia"
+        src="https://mdstrm.com/live-stream/6239f6d008e7ac488826f237?autoplay=false"
+        allow="autoplay; fullscreen; encrypted-media"
+        allowfullscreen
+        scrolling="no"></iframe>
+    </div>
+  </section>
+
+  <section class="col-feed" aria-labelledby="t-feed">
+    <div class="feed-cab">
+      <h2 id="t-feed">Feed de cuentas</h2>
+      <div class="filtros" role="group" aria-label="Filtrar publicaciones">
+        <button type="button" class="filtro" data-filtro="todas" aria-pressed="true">Todas</button>
+        <button type="button" class="filtro" data-filtro="x" aria-pressed="false">X</button>
+        <button type="button" class="filtro" data-filtro="instagram" aria-pressed="false">Instagram</button>
+        <button type="button" class="filtro filtro--izq" data-filtro="izq" aria-pressed="false">Cuentas de izquierda</button>
+      </div>
+    </div>
+
+    <p class="aviso" id="aviso" role="status"></p>
+    <button type="button" class="leidos" id="leidos">Marcar como leídas</button>
+
+    <div class="feed-lista">
+      <ol class="feed" id="feed"></ol>
+      <p class="vacio" id="vacio" hidden>No hay publicaciones para este filtro.</p>
+    </div>
+  </section>
+
+</div>
+
+<script>
+/* ============================================================
+   CUENTAS: "izq: true" las marca en rojo como cuentas de izquierda.
+   Las cuentas que no estén aquí se muestran como cuentas normales.
+   ============================================================ */
+const CUENTAS = {
+  "DRESTRUM__Pl":    { red: "x",         izq: false },
+  "Gorderizador":    { red: "x",         izq: false },
+  "presidente_kast": { red: "instagram", izq: false },
+  "gobiernodechile": { red: "instagram", izq: false },
+  "martin.arrau":    { red: "instagram", izq: false },
+  "ipoduje":         { red: "instagram", izq: false },
+  "ElHiloCL":        { red: "x",         izq: true  },
+  "ContrapoderCH":   { red: "x",         izq: true  }
+};
+
+const RELEER_CADA_MS = 60 * 1000;      /* cada cuánto la página vuelve a leer feed-data.js */
+const AVISO_SI_MAS_DE_MIN = 45;        /* avisa si el agente no actualiza el feed en este tiempo */
+const MAX_POSTS = 100;
+const NOMBRE_RED = { x: "X", instagram: "Instagram" };
+const ENLACES_PERMITIDOS = ["https://x.com/", "https://twitter.com/", "https://www.instagram.com/"];
+
+let datos = null;
+let filtro = "todas";
+let idsConocidos = null;   /* null = primera carga: nada se marca como nuevo */
+const nuevos = new Set();
+
+function esIzq(cuenta) { return !!(CUENTAS[cuenta] && CUENTAS[cuenta].izq); }
+
+/* Un repost conserva el id del post ORIGINAL, así que dos cuentas monitoreadas
+   pueden traer el mismo id. La clave combina cuenta + id para no confundirlos. */
+function claveDe(p) { return p.cuenta + "\u0000" + p.id; }
+
+function esRepost(p) { return p.repost === true; }
+
+/* Devuelve el autor original limpio (sin @ ni espacios) o "" si no viene */
+function autorOriginal(p) {
+  if (typeof p.autor_original !== "string") return "";
+  return p.autor_original.trim().replace(/^@+/, "");
+}
+
+function hace(iso) {
+  const s = Math.max(0, Math.floor((Date.now() - new Date(iso).getTime()) / 1000));
+  if (s < 60) return "hace un momento";
+  const m = Math.floor(s / 60);
+  if (m < 60) return "hace " + m + " min";
+  const h = Math.floor(m / 60);
+  if (h < 24) return "hace " + h + " h";
+  const d = Math.floor(h / 24);
+  return "hace " + d + (d === 1 ? " día" : " días");
+}
+
+function minutosDesde(iso) {
+  return Math.floor((Date.now() - new Date(iso).getTime()) / 60000);
+}
+
+function enlaceSeguro(u) {
+  return typeof u === "string" && ENLACES_PERMITIDOS.some(function (p) { return u.indexOf(p) === 0; });
+}
+function imagenSegura(u) {
+  return typeof u === "string" && u.indexOf("https://") === 0;
+}
+
+/* Lee feed-data.js agregándolo como script (funciona también abriendo el archivo directo) */
+function leerDatos() {
+  return new Promise(function (ok, fallo) {
+    const s = document.createElement("script");
+    s.src = "feed-data.js?t=" + Date.now();
+    s.onload = function () { const d = window.FEED_DATA; s.remove(); d ? ok(d) : fallo(); };
+    s.onerror = function () { s.remove(); fallo(); };
+    document.head.appendChild(s);
+  });
+}
+
+function aplicar(d) {
+  datos = d;
+  const posts = Array.isArray(d.posts) ? d.posts.slice(0, MAX_POSTS) : [];
+  const ids = new Set(posts.map(claveDe));
+  if (idsConocidos === null) {
+    idsConocidos = ids;
+  } else {
+    posts.forEach(function (p) {
+      const k = claveDe(p);
+      if (!idsConocidos.has(k)) { nuevos.add(k); idsConocidos.add(k); }
+    });
+  }
+  pintar();
+}
+
+function crear(tag, clase, texto) {
+  const el = document.createElement(tag);
+  if (clase) el.className = clase;
+  if (texto !== undefined) el.textContent = texto;   /* textContent: el contenido externo nunca se interpreta como HTML */
+  return el;
+}
+
+function pintar() {
+  if (!datos) return;
+  const lista = document.getElementById("feed");
+  lista.textContent = "";
+
+  let posts = (Array.isArray(datos.posts) ? datos.posts : []).slice();
+  posts.sort(function (a, b) { return new Date(b.fecha) - new Date(a.fecha); });
+  posts = posts.slice(0, MAX_POSTS).filter(function (p) {
+    if (filtro === "todas") return true;
+    if (filtro === "izq") return esIzq(p.cuenta);
+    return p.red === filtro;
+  });
+
+  posts.forEach(function (p) {
+    const izq = esIzq(p.cuenta);
+    const esNuevo = nuevos.has(claveDe(p));
+    const li = crear("li", "post" + (izq ? " post--izq" : "") + (esNuevo ? " post--nuevo" : ""));
+
+    /* Reposts: línea de aviso sobre el contenido. Los posts sin estos campos no la llevan. */
+    if (esRepost(p)) {
+      const autor = autorOriginal(p);
+      const rep = crear("div", "post__repost");
+      rep.appendChild(crear("span", "post__repost-icono", "\u21c4"));
+      rep.appendChild(crear("span", null, autor
+        ? p.cuenta + " reposte\u00f3 a @" + autor
+        : p.cuenta + " reposte\u00f3"));
+      li.appendChild(rep);
+    }
+
+    const cab = crear("div", "post__cab");
+    cab.appendChild(crear("span", "post__cuenta", "@" + p.cuenta));
+    cab.appendChild(crear("span", "post__red", NOMBRE_RED[p.red] || p.red));
+    if (izq) cab.appendChild(crear("span", "post__izq", "Cuenta de izquierda"));
+    if (esNuevo) cab.appendChild(crear("span", "post__nuevo", "Nuevo"));
+    const hora = crear("time", "post__hora", hace(p.fecha));
+    hora.dateTime = p.fecha;
+    hora.title = new Date(p.fecha).toLocaleString("es-CL");
+    cab.appendChild(hora);
+    li.appendChild(cab);
+
+    if (p.texto) li.appendChild(crear("p", "post__texto", p.texto));
+
+    if (imagenSegura(p.imagen)) {
+      const img = document.createElement("img");
+      img.className = "post__img";
+      img.src = p.imagen;
+      img.alt = "";
+      img.loading = "lazy";
+      img.referrerPolicy = "no-referrer";
+      img.onerror = function () { img.remove(); };
+      li.appendChild(img);
+    }
+
+    if (enlaceSeguro(p.url)) {
+      const a = crear("a", "post__enlace", "Ver publicación original");
+      a.href = p.url;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      li.appendChild(a);
+    }
+
+    lista.appendChild(li);
+  });
+
+  document.getElementById("vacio").hidden = posts.length > 0;
+
+  const btn = document.getElementById("leidos");
+  btn.classList.toggle("visible", nuevos.size > 0);
+  document.title = (nuevos.size ? "(" + nuevos.size + ") " : "") + "Monitoreo en vivo";
+
+  pintarEstado();
+}
+
+function pintarEstado() {
+  const estado = document.getElementById("estado");
+  const aviso = document.getElementById("aviso");
+  if (!datos || !datos.actualizado) { estado.textContent = "Feed sin fecha de actualización"; return; }
+  const min = minutosDesde(datos.actualizado);
+  estado.textContent = "Feed actualizado " + hace(datos.actualizado);
+  if (min > AVISO_SI_MAS_DE_MIN) {
+    aviso.textContent = "El feed no se actualiza desde hace " + min + " minutos. Revisa que el agente siga corriendo.";
+    aviso.classList.add("visible");
+  } else {
+    aviso.classList.remove("visible");
+  }
+}
+
+function mostrarErrorDeCarga() {
+  if (datos) return;   /* si ya hay datos, se mantienen en pantalla */
+  document.getElementById("estado").textContent = "No se pudo leer feed-data.js";
+  const aviso = document.getElementById("aviso");
+  aviso.textContent = "No se encontró feed-data.js. Debe estar en la misma carpeta que esta página.";
+  aviso.classList.add("visible");
+}
+
+function revisar() {
+  leerDatos().then(aplicar).catch(mostrarErrorDeCarga);
+}
+
+document.querySelectorAll(".filtro").forEach(function (b) {
+  b.addEventListener("click", function () {
+    filtro = b.dataset.filtro;
+    document.querySelectorAll(".filtro").forEach(function (x) {
+      x.setAttribute("aria-pressed", String(x === b));
+    });
+    pintar();
+  });
+});
+
+document.getElementById("leidos").addEventListener("click", function () {
+  nuevos.clear();
+  pintar();
+});
+
+revisar();
+setInterval(revisar, RELEER_CADA_MS);
+setInterval(pintar, 60 * 1000);   /* refresca los «hace X min» */
+</script>
+
+</body>
+</html>
