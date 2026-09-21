@@ -1,6 +1,15 @@
 window.FEED_DATA = {
-  "actualizado": "2026-09-21T23:07:36.000Z",
+  "actualizado": "2026-09-21T23:37:44.000Z",
   "posts": [
+    {
+      "id": "2102178478221099517",
+      "cuenta": "Gorderizador",
+      "red": "x",
+      "fecha": "2026-09-21T23:29:40.000Z",
+      "texto": "🔴 Bloomberg: extranjeros elevaron 42% sus tenencias de deuda local este año, hasta un récord de US$21.040 millones, atraídos por disciplina fiscal y reformas del gobierno del presidente Kast\n\nESTÁN PASANDO COSAS 🚨",
+      "url": "https://x.com/Gorderizador/status/2102178478221099517",
+      "imagen": "https://pbs.twimg.com/amplify_video_thumb/2102178287367647232/img/zegCakDt06lasALB.jpg"
+    },
     {
       "id": "DdkLhERuYcX",
       "cuenta": "martin.arrau",
