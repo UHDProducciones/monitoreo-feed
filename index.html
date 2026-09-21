@@ -308,15 +308,11 @@ function imagenSegura(u) {
   return typeof u === "string" && u.indexOf("https://") === 0;
 }
 
-/* Lee feed-data.js directo desde GitHub (raw) agregándolo como script, en vez del
-   feed-data.js empaquetado en el build de Netlify. Así el agente puede actualizar los
-   datos con git push cada 30 min sin que cada push dispare (y cobre) un deploy de Netlify:
-   el HTML de este sitio solo necesita reconstruirse cuando cambia el propio HTML. */
-const FEED_DATA_URL = "https://raw.githubusercontent.com/UHDProducciones/monitoreo-feed/main/feed-data.js";
+/* Lee feed-data.js agregándolo como script (funciona también abriendo el archivo directo) */
 function leerDatos() {
   return new Promise(function (ok, fallo) {
     const s = document.createElement("script");
-    s.src = FEED_DATA_URL + "?t=" + Date.now();
+    s.src = "feed-data.js?t=" + Date.now();
     s.onload = function () { const d = window.FEED_DATA; s.remove(); d ? ok(d) : fallo(); };
     s.onerror = function () { s.remove(); fallo(); };
     document.head.appendChild(s);
@@ -436,7 +432,7 @@ function mostrarErrorDeCarga() {
   if (datos) return;   /* si ya hay datos, se mantienen en pantalla */
   document.getElementById("estado").textContent = "No se pudo leer feed-data.js";
   const aviso = document.getElementById("aviso");
-  aviso.textContent = "No se pudo cargar feed-data.js desde GitHub. Revisa la conexión o el repositorio.";
+  aviso.textContent = "No se encontró feed-data.js. Debe estar en la misma carpeta que esta página.";
   aviso.classList.add("visible");
 }
 
