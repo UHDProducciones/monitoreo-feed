@@ -1,6 +1,24 @@
 window.FEED_DATA = {
-  "actualizado": "2026-09-21T19:38:02.000Z",
+  "actualizado": "2026-09-21T20:09:45.000Z",
   "posts": [
+    {
+      "id": "2102124760364712127",
+      "cuenta": "Gorderizador",
+      "red": "x",
+      "fecha": "2026-09-21T19:56:13.000Z",
+      "texto": "Chile está atrayendo capital extranjero ante más confianza de los inversionistas, asegura Bloomberg \nhttps://biobiochile.cl/noticias/economia/actualidad-economica/2026/09/21/chile-esta-atrayendo-capital-extranjero-ante-mas-confianza-de-los-inversionistas-asegura-bloomberg.shtml",
+      "url": "https://x.com/Gorderizador/status/2102124760364712127",
+      "imagen": "https://pbs.twimg.com/media/HSw_TWAWwAEfk2z?format=jpg&name=medium"
+    },
+    {
+      "id": "Ddj80L8sISt",
+      "cuenta": "presidente_kast",
+      "red": "instagram",
+      "fecha": "2026-09-21T19:50:54.000Z",
+      "texto": "Chile tiene mucho que mostrar y aportar al mundo. Ya estamos en Nueva York para una intensa agenda de cuatro días, enfocada en atraer nuevas inversiones, abrir mercados para nuestros productos y representar a Chile ante Naciones Unidas. Una oportunidad para seguir posicionando a nuestro país en el mundo.",
+      "url": "https://www.instagram.com/presidente_kast/reel/Ddj80L8sISt/",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/792046174_18076723262529444_1798500381154432043_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=Mzk5MTMwMTE2MzgxMzIwOTI2MTE4MDc2NzIzMjU5NTI5NDQ0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=mp9BjRoohIkQ7kNvwGga1IR&_nc_oc=AdrXpZlYaCo-Scw8RNyOXaSXpp3oXIFw5fcfRIdGx65bbZANjwgOfwoBEwgxamoGUh8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=mdxF7JK7vNH1bfeAwcELBA&_nc_ss=7a22e&oh=00_AQL5GzNGJZktRJdbVtfa5ahE4VVEttBOlQWoERvC3u4slg&oe=6AB76D92"
+    },
     {
       "id": "2102117273599087103",
       "cuenta": "DRESTRUM__Pl",
@@ -19,15 +37,6 @@ window.FEED_DATA = {
       "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/796571230_18365542558244873_5347336502036938882_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=Mzk5MTI3ODA0MzYxOTc5MDg1OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjcwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=mPs5cXbW24IQ7kNvwFZ7GQB&_nc_oc=Adp15xrmb1RJJad1ReAf-HV7GqdUNB1j0WohcyByPcMIpmytmr4qDU4frmOBdcHwbig&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=tM3RcrmpZqsNCbpcZvne4w&_nc_ss=7a22e&oh=00_AQJfm-Ou6PkM_YAG46WO6ZAu7JM8N-u3fEY34En53FGibQ&oe=6AB75FA3"
     },
     {
-      "id": "2102102318686589233",
-      "cuenta": "DRESTRUM__Pl",
-      "red": "x",
-      "fecha": "2026-09-21T18:27:02.000Z",
-      "texto": "El buen trabajo del gobierno en seguridad, liderado por el ministro @martinarrau está dando frutos muy rápido. 👍",
-      "url": "https://x.com/DRESTRUM__Pl/status/2102102318686589233",
-      "imagen": "https://pbs.twimg.com/media/HSwq5NJXsAAJtOh?format=jpg&name=medium"
-    },
-    {
       "id": "Ddjzxyhm7FF",
       "cuenta": "gobiernodechile",
       "red": "instagram",
@@ -44,6 +53,15 @@ window.FEED_DATA = {
       "texto": "Hoy nos reunimos con el ministro del Trabajo, Tomás Rau, para avanzar en el plan de activación del empleo en el sector de la construcción, tal como nos ha pedido el Presidente José Antonio Kast.\n\nLa construcción es clave para recuperar empleos y, al mismo tiempo, acelerar la entrega de viviendas y obras que las familias necesitan. Por eso, estamos coordinando acciones para activar nuevos proyectos, acelerar obras y reducir la burocracia que hoy las retrasa.\n\nMañana anunciaremos el Plan de Emergencia Laboral en materia de vivienda,  con medidas para impulsar la actividad y generar más oportunidades de trabajo de aquí a fin de año.",
       "url": "https://www.instagram.com/ipoduje/p/DdjzidTnGd5/",
       "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/808614356_18338482399284946_1283926108836884215_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=Mzk5MTI2MDIxMDkyODIxMzE4Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Ni5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=XeQshQVSsGwQ7kNvwHeaYe5&_nc_oc=AdpRltImtWGxQnFSNij4uVD3osjq_RVC30-Aw7aeikNijJlGVQRr1uk-KPjZ5762YFs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=2UXEZ8MA-NsFdrlo6qT-CA&_nc_ss=7a22e&oh=00_AQK6cYVe85_DK9DtgP-2JBq50aFfcQ5ljM6JM4KDzXvY_w&oe=6AB75587"
+    },
+    {
+      "id": "2102102318686589233",
+      "cuenta": "DRESTRUM__Pl",
+      "red": "x",
+      "fecha": "2026-09-21T18:27:02.000Z",
+      "texto": "El buen trabajo del gobierno en seguridad, liderado por el ministro @martinarrau está dando frutos muy rápido. 👍",
+      "url": "https://x.com/DRESTRUM__Pl/status/2102102318686589233",
+      "imagen": "https://pbs.twimg.com/media/HSwq5NJXsAAJtOh?format=jpg&name=medium"
     },
     {
       "id": "2102093792236970030",
