@@ -1,5 +1,5 @@
 window.FEED_DATA = {
-  "actualizado": "2026-09-21T22:08:01.000Z",
+  "actualizado": "2026-09-21T22:42:00.000Z",
   "posts": [
     {
       "id": "DdkLhERuYcX",
@@ -9,6 +9,17 @@ window.FEED_DATA = {
       "texto": "Estuvimos en Contulmo, escuchamos a la familia Grollmus y reafirmamos que esta no era solo su causa: era una causa país.\n\nComo Ministerio fuimos querellantes. Hoy la justicia entrega una señal contundente: la violencia no queda impune y el Estado no retrocede.\n\n#chilecontraelcrimen",
       "url": "https://www.instagram.com/martin.arrau/reel/DdkLhERuYcX/",
       "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/819995348_18365556727244873_8640667506487369234_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=Mzk5MTM2NTgyMDYwMzc5NTIyMzE4MzY1NTU2NzIxMjQ0ODcz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=nPHeljYL3EkQ7kNvwEm8kQz&_nc_oc=AdpR0heClH0bWsCw9F4dW_6kaYrGeBmbSeoXXgw8ZHdICFF1X971KzpN8IHgx3UBTiE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=1K0IumLgqkipIgR512MgOw&_nc_ss=7a22e&oh=00_AQJx2BVIJT6V_E1-qrXI7Kr3N5VJi8S6Cgc34Lc2PtIgTA&oe=6AB795B7"
+    },
+    {
+      "id": "DdkLErYBKg4",
+      "cuenta": "gobiernodechile",
+      "red": "instagram",
+      "fecha": "2026-09-21T21:56:23.000Z",
+      "texto": "Pagar el pasaje es un deber\ud83d\ude8c\u2705\n\nLos biministros Louis de Grange y Daniel Mas presentaron a los nuevos Agentes Antievasi\u00f3n, quienes tendr\u00e1n la misi\u00f3n de velar por el pago del pasaje en el transporte p\u00fablico y disuadir a los evasores.\n\nEl plan piloto se extender\u00e1 por un mes y, seg\u00fan sus resultados, podr\u00eda aplicarse a otros servicios de Red Movilidad .",
+      "url": "https://www.instagram.com/mttchile/reel/DdkLErYBKg4/",
+      "repost": true,
+      "autor_original": "mttchile",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/815138869_18557571334072558_1791769315861455006_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=105&ig_cache_key=Mzk5MTM2Mzg2OTcyMDQ4Nzk5MjE4NTU3NTcxMzMxMDcyNTU4.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=2_T2-fXU-g8Q7kNvwFuO8Gh&_nc_oc=AdrK_vsnVm2nzdBnig6hTldh0euherCUzS7Atz39j1KrE2p8l-vS1InBB0kcNRzLNlM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=BXmo8UGmSmD02OUK8MCDDw&_nc_ss=7a22e&oh=00_AQL-mVbmoduZlB43ahaU57rfxGt7t0OjQiaCyBF0btenEg&oe=6AB79C3D"
     },
     {
       "id": "DdkJEhZkfzV",
