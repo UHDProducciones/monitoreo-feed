@@ -1,6 +1,24 @@
 window.FEED_DATA = {
-  "actualizado": "2026-09-21T21:12:35.000Z",
+  "actualizado": "2026-09-21T21:39:21.000Z",
   "posts": [
+    {
+      "id": "DdkJEhZkfzV",
+      "cuenta": "gobiernodechile",
+      "red": "instagram",
+      "fecha": "2026-09-21T21:37:03.000Z",
+      "texto": "👮‍♀️👮 ¡Más jóvenes quieren ser Carabineros!\n\nEste año, 2.845 personas postularon a la Escuela de Carabineros, cerca de 700 más que en 2025.\n\nUna positiva señal que refleja el creciente interés por formar parte de la institución y aportar a la seguridad de nuestro país.",
+      "url": "https://www.instagram.com/gobiernodechile/p/DdkJEhZkfzV/",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/819107300_18628726744041650_237196704307735402_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&ig_cache_key=Mzk5MTM1NDg1NjY5MDUyODE0Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzIwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=8Y4p_OICZP4Q7kNvwEWboTS&_nc_oc=AdrRjtRhWHOeNjJQB4w7n-qviyDNse-GQFM8UrE6CHStuRaBuOEkq22PXS5D4tZJpmE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=0TB4RbwsrzKUZGkr34mYAw&_nc_ss=7a22e&oh=00_AQKaAW2LoZDNV7vcrx0PleeMkwNPRGBBx4pnAGlo-s5HPg&oe=6AB7601D"
+    },
+    {
+      "id": "2102148716220092729",
+      "cuenta": "Gorderizador",
+      "red": "x",
+      "fecha": "2026-09-21T21:31:24.000Z",
+      "texto": "🔴LAPIDARIA CONDENA en el Caso Grollmus: Penas para los delincuentes comuneros que quemaron el histórico molino Grollmus suman 1.000 años de cárcel\n\nDuro golpe al partido comunista",
+      "url": "https://x.com/Gorderizador/status/2102148716220092729",
+      "imagen": "https://pbs.twimg.com/amplify_video_thumb/2102148583998808065/img/VwoMyTp32APLEK4m.jpg"
+    },
     {
       "id": "2102124760364712127",
       "cuenta": "Gorderizador",
