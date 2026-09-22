@@ -1,6 +1,22 @@
 window.FEED_DATA = {
-  "actualizado": "2026-09-22T12:08:18.000Z",
+  "actualizado": "2026-09-22T12:37:52.000Z",
   "posts": [
+    {
+      "id": "2102373035764298143",
+      "cuenta": "Gorderizador",
+      "red": "x",
+      "fecha": "2026-09-22T12:22:46.000Z",
+      "texto": "Sebastián Gray no debería tener permitido ejercer como académico de una prestigiosa universidad chilena como la @ucatolica",
+      "url": "https://x.com/Gorderizador/status/2102373035764298143"
+    },
+    {
+      "id": "2102370305108787681",
+      "cuenta": "ElHiloCL",
+      "red": "x",
+      "fecha": "2026-09-22T12:11:55.000Z",
+      "texto": "🔴 Presidente Lula, como lo envidio:\n\n1️⃣ Tiene un discurso agresivo, quiere ganar la elección, sabe que al frente tiene a un nazi asqueroso que no le temblará la mano en querer matar a Lula y a sus seguidores. Al nazi no se le trata con respeto, se le pulveriza, se le destruye,",
+      "url": "https://x.com/ElHiloCL/status/2102370305108787681"
+    },
     {
       "id": "DdkpIwasHl1",
       "cuenta": "gobiernodechile",
