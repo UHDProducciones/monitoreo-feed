@@ -1,5 +1,5 @@
 window.FEED_DATA = {
-  "actualizado": "2026-09-22T00:08:30.000Z",
+  "actualizado": "2026-09-22T00:40:10.000Z",
   "posts": [
     {
       "id": "DdkZeznO4uw",
@@ -71,7 +71,7 @@ window.FEED_DATA = {
       "cuenta": "gobiernodechile",
       "red": "instagram",
       "fecha": "2026-09-21T21:56:23.000Z",
-      "texto": "Pagar el pasaje es un deber\ud83d\ude8c\u2705\n\nLos biministros Louis de Grange y Daniel Mas presentaron a los nuevos Agentes Antievasi\u00f3n, quienes tendr\u00e1n la misi\u00f3n de velar por el pago del pasaje en el transporte p\u00fablico y disuadir a los evasores.\n\nEl plan piloto se extender\u00e1 por un mes y, seg\u00fan sus resultados, podr\u00eda aplicarse a otros servicios de Red Movilidad .",
+      "texto": "Pagar el pasaje es un deber🚌✅\n\nLos biministros Louis de Grange y Daniel Mas presentaron a los nuevos Agentes Antievasión, quienes tendrán la misión de velar por el pago del pasaje en el transporte público y disuadir a los evasores.\n\nEl plan piloto se extenderá por un mes y, según sus resultados, podría aplicarse a otros servicios de Red Movilidad .",
       "url": "https://www.instagram.com/mttchile/reel/DdkLErYBKg4/",
       "repost": true,
       "autor_original": "mttchile",
