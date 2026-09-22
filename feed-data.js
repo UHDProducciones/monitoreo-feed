@@ -1,6 +1,33 @@
 window.FEED_DATA = {
-  "actualizado": "2026-09-22T00:40:10.000Z",
+  "actualizado": "2026-09-22T01:08:30.000Z",
   "posts": [
+    {
+      "id": "DdkfoCogNM7",
+      "cuenta": "presidente_kast",
+      "red": "instagram",
+      "fecha": "2026-09-22T00:54:08.000Z",
+      "texto": "Participamos en el Diálogo Presidencial del BID junto a la Ministra Ximena Lincolao, mandatarios de la región y empresas tecnológicas para conversar sobre los desafíos de la implementación de la Inteligencia Artificial.",
+      "url": "https://www.instagram.com/presidente_kast/p/DdkfoCogNM7/",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/795583265_18076744673529444_7846901667432145141_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=Mzk5MTQ1Mzg4Njk0OTg4NDQ1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczNi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=fMWaqjxbiVwQ7kNvwEG04u0&_nc_oc=AdocWBwziM1BJpF8zTd7CaGlOEYSShIW5vU-xHME4WK9bpSOEBxfQKyNSvMsRw4lfbg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=3JREg1a9AXOhOXKc1cYMbQ&_nc_ss=7a22e&oh=00_AQJEHMWBCFlBwknHo-R6gIhYbedQgGrxHKtwpCDXjmmS9A&oe=6AB78C71"
+    },
+    {
+      "id": "2102198485206315009",
+      "cuenta": "PresidenteKast",
+      "red": "x",
+      "fecha": "2026-09-22T00:49:10.000Z",
+      "texto": "Participamos en el Diálogo Presidencial del BID junto a la Ministra Ximena Lincolao, mandatarios de la región y empresas tecnológicas para conversar sobre los desafíos de la implementación de la Inteligencia Artificial.",
+      "url": "https://x.com/PresidenteKast/status/2102198485206315009",
+      "imagen": "https://pbs.twimg.com/media/HSyCXBdWAAEv3Ho?format=jpg&name=medium"
+    },
+    {
+      "id": "2102196623380213804",
+      "cuenta": "Gorderizador",
+      "red": "x",
+      "fecha": "2026-09-22T00:41:46.000Z",
+      "texto": "Este no es el mismo \"profesor\" comunista de la Universidad Católica que votó apruebo, por Boric y critica a la \"ultraderecha\" porque es un peligro para la sociedad?\n\n\n@ucatolica",
+      "url": "https://x.com/Gorderizador/status/2102196623380213804",
+      "imagen": "https://pbs.twimg.com/media/HSyATOcWAAA6P4L?format=jpg&name=medium"
+    },
     {
       "id": "DdkZeznO4uw",
       "cuenta": "martin.arrau",
