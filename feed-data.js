@@ -1,6 +1,23 @@
 window.FEED_DATA = {
-  "actualizado": "2026-09-22T14:08:07.000Z",
+  "actualizado": "2026-09-22T15:05:00.000Z",
   "posts": [
+    {
+      "id": "2102409446265639179",
+      "cuenta": "ElHiloCL",
+      "red": "x",
+      "fecha": "2026-09-22T14:47:27.000Z",
+      "texto": "🔴 URGENTE\n\n🔷 Comenzó el acarreo para Mantener a Mario Desbordes en Santiago y a la derecha en el poder en 2028 y 2029\n\n🔷 José Antonio Kast y Chile Vamos van a regularizar a casi 2.000.000 de migrantes irregulares, la mayoría de ellos Venezolanos, el reemplazo del votante",
+      "url": "https://x.com/ElHiloCL/status/2102409446265639179"
+    },
+    {
+      "id": "2102399714482098336",
+      "cuenta": "PresidenteKast",
+      "red": "x",
+      "fecha": "2026-09-22T14:08:47.000Z",
+      "texto": "Ya estamos en el hemiciclo de Naciones Unidas para la apertura del 81° Debate General. Nos acompañan el canciller Francisco Pérez Mackenna, la ministra de Desarrollo Social, María Jesús Wulf, la ministra Francisca Toledo y el embajador de Chile ante la ONU, Roberto Ampuero.",
+      "url": "https://x.com/PresidenteKast/status/2102399714482098336",
+      "imagen": "https://pbs.twimg.com/media/HS05XWAX0AA3rR7?format=jpg&name=medium"
+    },
     {
       "id": "2102388024516419905",
       "cuenta": "ElHiloCL",
