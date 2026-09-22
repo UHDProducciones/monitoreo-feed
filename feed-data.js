@@ -1,6 +1,58 @@
 window.FEED_DATA = {
-  "actualizado": "2026-09-22T15:05:00.000Z",
+  "actualizado": "2026-09-22T19:08:32.000Z",
   "posts": [
+    {
+      "id": "2102474519587979719",
+      "cuenta": "Gorderizador",
+      "red": "x",
+      "fecha": "2026-09-22T19:06:02.000Z",
+      "texto": "🔴Presidente Kast refuerza la soberanía chilena sobre el estrecho de Magallanes durante su primera intervención en la Asamblea General de la ONU",
+      "url": "https://x.com/Gorderizador/status/2102474519587979719",
+      "imagen": "https://pbs.twimg.com/amplify_video_thumb/2102452325524582400/img/YZkNuMQ_qasRY8aA.jpg"
+    },
+    {
+      "id": "2102474474348290418",
+      "cuenta": "ContrapoderCH",
+      "red": "x",
+      "fecha": "2026-09-22T19:05:51.000Z",
+      "texto": "🔴ACTUALIDAD| “Basta de maniobras, que se respete la democracia”: Diputado Videla exige que se vote la prohibición de las carreras de galgos para que pase al Senado",
+      "url": "https://x.com/ContrapoderCH/status/2102474474348290418"
+    },
+    {
+      "id": "DdmcT8vv-i1",
+      "cuenta": "gobiernodechile",
+      "red": "instagram",
+      "fecha": "2026-09-22T19:04:01.000Z",
+      "texto": "🇨🇱 Una hoja de ruta para volver a crecer y proyectar a Chile hacia el futuro.\n\nAnte la Asamblea General de Naciones Unidas, el Presidente José Antonio Kast abordó las transformaciones impulsadas por el Gobierno y el rumbo que busca consolidar el país.\n\n#ChileEstáDeVuelta",
+      "url": "https://www.instagram.com/gobiernodechile/reel/DdmcT8vv-i1/",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/820180978_18629010805041650_401108459121207259_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=103&ig_cache_key=Mzk5MjAwMjYzNTkwODUwNzgyOTE4NjI5MDEwODAyMDQxNjUw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEzMjAuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMyIn0%3D&_nc_ohc=AEK1iADxEyEQ7kNvwFAH49w&_nc_oc=Adr0RovBxXisGkI70fpn4azyVDFP63B8g8yPBelIYcKWmtC1KGAF8Bn8MpLxSOERSvY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=xUKqggxHPZKmQZLRL_5V9w&_nc_ss=7a22e&oh=00_AQK0wgLAzxYaSXQwW-xch8zzvaFePt-aTTtXFT8-Mq1TZQ&oe=6AB8B844"
+    },
+    {
+      "id": "2102466114894672196",
+      "cuenta": "DRESTRUM__Pl",
+      "red": "x",
+      "fecha": "2026-09-22T18:32:38.000Z",
+      "texto": "lo que vio\ntodo Chile \n                            // \n                                 lo que vio\n                             Paulina Astroza",
+      "url": "https://x.com/DRESTRUM__Pl/status/2102466114894672196",
+      "imagen": "https://pbs.twimg.com/media/HS11x9qXoAAbIXw?format=jpg&name=small"
+    },
+    {
+      "id": "DdmWKM6uiEm",
+      "cuenta": "ipoduje",
+      "red": "instagram",
+      "fecha": "2026-09-22T18:12:55.000Z",
+      "texto": "🚧 ¡Reabrimos el paso bajo nivel de Departamental!\n\nJunto a la alcaldesa de San Miguel, Carol Bown, y gracias al trabajo del Serviu Metropolitano, recuperamos esta importante conexión tras meses de cierre por el daño provocado por un camión que botó una viga.\n\nAhora reforzaremos, junto al municipio y Transporte, la señalética y los controles de altura para evitar que vuelva a ocurrir. Este paso tiene el Metro por debajo, por lo que no es posible modificar su altura.\n\nLamentamos las molestias que estos meses generaron y agradecemos la paciencia de quienes transitan diariamente por aquí. Queremos que Departamental siga funcionando y que esto no vuelva a pasar.",
+      "url": "https://www.instagram.com/ipoduje/reel/DdmWKM6uiEm/",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/796545943_18338632252284946_3140895634847718343_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=Mzk5MTk3NTU3Nzc5ODcxMzYzODE4MzM4NjMyMjQ5Mjg0OTQ2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEzMjAuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMyIn0%3D&_nc_ohc=Z7rDG3og9hAQ7kNvwEYGbTC&_nc_oc=AdoQf88nl09Wkp_zUtlIv-v7gYm2yr4QR7nCio3foJZlwWn50mDbyl-Q4E3_l_PaQSo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=3I5AQu-dtIB_K9GNwNp4KA&_nc_ss=7a22e&oh=00_AQJylulRS24BbSmS78g-bShhg5OeNZ400A7hZDI2423p_A&oe=6AB8A3B5"
+    },
+    {
+      "id": "2102458318015070467",
+      "cuenta": "ElHiloCL",
+      "red": "x",
+      "fecha": "2026-09-22T18:01:39.000Z",
+      "texto": "Kast el líder mundial ante una ONU llena\n\n🇮🇳 No somos Cerimedo, Somos Chilenos",
+      "url": "https://x.com/ElHiloCL/status/2102458318015070467"
+    },
     {
       "id": "2102409446265639179",
       "cuenta": "ElHiloCL",
