@@ -1,6 +1,42 @@
 window.FEED_DATA = {
-  "actualizado": "2026-09-21T23:37:44.000Z",
+  "actualizado": "2026-09-22T00:08:30.000Z",
   "posts": [
+    {
+      "id": "DdkZeznO4uw",
+      "cuenta": "martin.arrau",
+      "red": "instagram",
+      "fecha": "2026-09-22T00:01:52.000Z",
+      "texto": "Hoy dimos un paso importante para agilizar las investigaciones penales. Este proyecto permitirá que los laboratorios acreditados de Carabineros y la PDI cotejen directamente huellas genéticas con el Registro Nacional de ADN, reduciendo etapas y tiempos de espera para identificar responsables, descartar inocentes y vincular delitos.\n\nAgradezco el respaldo transversal de la Cámara: el proyecto fue aprobado sin votos en contra. Confío en que el Senado mantendrá este mismo espíritu y permitirá que esta herramienta esté pronto al servicio de la justicia y de las víctimas.\n\nEsta iniciativa no requiere nuevos recursos fiscales. Requiere gestionar mejor, eliminar trabas y aprovechar las capacidades que el Estado ya tiene. Así también se avanza en seguridad: transformando las herramientas disponibles en resultados concretos para las familias de Chile.\n\n#chilecontraelcrimen",
+      "url": "https://www.instagram.com/martin.arrau/reel/DdkZeznO4uw/",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/811137810_18365563951244873_5133212861206179909_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=103&ig_cache_key=Mzk5MTQyNzIzNzkyMzIyODU5MjE4MzY1NTYzOTQ4MjQ0ODcz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=_g7r5sDAfz8Q7kNvwF2GKa5&_nc_oc=AdpepdUWH7LttiQmbMnx7VcXGY7geqGszN6dw9cxrTSS9l-dqS-abTWKmlntt-FxdNI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=Ed2hxlwhsvkhHhZ1V0mW6w&_nc_ss=7a22e&oh=00_AQKp8_n3Dg7AEC6s_PlSHkr0avqVx0EC2SsNBkKEbrM5xw&oe=6AB7A41C"
+    },
+    {
+      "id": "2102186481880019446",
+      "cuenta": "Gorderizador",
+      "red": "x",
+      "fecha": "2026-09-22T00:01:28.000Z",
+      "texto": "Los \"anti casta\" del grupo de Johannes Kaiser parece que fueron domados",
+      "url": "https://x.com/Gorderizador/status/2102186481880019446",
+      "imagen": "https://pbs.twimg.com/media/HSx3dDeWoAAxutu?format=jpg&name=medium"
+    },
+    {
+      "id": "2102183940656087129",
+      "cuenta": "DRESTRUM__Pl",
+      "red": "x",
+      "fecha": "2026-09-21T23:51:22.000Z",
+      "texto": "JAAJAJAJAJAJAJAJAJAJAJAAJAJAJAJAJAJAJAJJAJAJJAAJAJAJAAJAJAJAJAJAAAAAJAJAJAJAJAJAJAJAJAJAAAAJAJAJAJAJJAJAAJAJAJAJ",
+      "url": "https://x.com/DRESTRUM__Pl/status/2102183940656087129",
+      "imagen": "https://pbs.twimg.com/amplify_video_thumb/2102181805528883200/img/k2YaQ03uqzMfRS-5.jpg"
+    },
+    {
+      "id": "2102182122869932362",
+      "cuenta": "ContrapoderCH",
+      "red": "x",
+      "fecha": "2026-09-21T23:44:09.000Z",
+      "texto": "📢Para continuar con nuestras investigaciones, necesitamos 20 suscriptores nuevos y hasta el momento no hemos llegado a la meta mensual. Suscríbete en el siguiente link a @ContrapoderCH desde $3.000 y financia nuestros reportajes.\nhttps://app.reveniu.com/checkout-custom-link/d3gCKPqWbrqHKBveruYX02uLlHtZ9TnX",
+      "url": "https://x.com/ContrapoderCH/status/2102182122869932362",
+      "imagen": "https://pbs.twimg.com/media/HSxy1moW8AAL96I?format=jpg&name=medium"
+    },
     {
       "id": "2102178478221099517",
       "cuenta": "Gorderizador",
@@ -9,6 +45,17 @@ window.FEED_DATA = {
       "texto": "🔴 Bloomberg: extranjeros elevaron 42% sus tenencias de deuda local este año, hasta un récord de US$21.040 millones, atraídos por disciplina fiscal y reformas del gobierno del presidente Kast\n\nESTÁN PASANDO COSAS 🚨",
       "url": "https://x.com/Gorderizador/status/2102178478221099517",
       "imagen": "https://pbs.twimg.com/amplify_video_thumb/2102178287367647232/img/zegCakDt06lasALB.jpg"
+    },
+    {
+      "id": "DdkT8WPGIQ9",
+      "cuenta": "gobiernodechile",
+      "red": "instagram",
+      "fecha": "2026-09-21T23:12:03.000Z",
+      "texto": "🧬 Impulsamos en la Cámara de Diputados, el proyecto de ley que busca acelerar la comparación de ADN en las investigaciones penales.\n\nHoy, cuando Carabineros o la PDI encuentran una huella genética en la escena de un delito, solo el Servicio Médico Legal puede compararla con el registro nacional. Al laboratorio policial le toma cerca de diez días obtener el perfil, pero ese cruce puede demorar entre ocho y diez meses. \n\n🔬 El proyecto busca que los laboratorios de ambas policías, acreditados ante el SML desde 2019, también puedan hacer esa comparación y enviar el resultado directamente al fiscal o al tribunal. \n\nNuestro compromiso es que la evidencia llegue a tiempo: para identificar a quienes cometen delitos y también para descartar a quienes no los cometieron. Continuamos trabajando para que este proyecto se convierta en ley.\n\n#chilecontraelcrimen",
+      "url": "https://www.instagram.com/minsegpublicacl/p/DdkT8WPGIQ9/",
+      "repost": true,
+      "autor_original": "minsegpublicacl",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/817679239_17919919500442857_5224459508110527432_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=Mzk5MTQwMTkxMTExMzA5NDkwNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI4OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=kIhR3CVicyUQ7kNvwF8mVOZ&_nc_oc=AdpsJ2Qh0Nwk6UIHntiCJ4lSUrZscOsDxrp8dyGLofPsJbSDnFw9BRzuSNxv4sANfQ4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=d-nklcu5wZsYn8vCSmqYtQ&_nc_ss=7a22e&oh=00_AQK0eFiG2ZIWN56vj7uXoJ7oFHszTBNc1SnF3PX76wmIUw&oe=6AB7A6C9"
     },
     {
       "id": "DdkLhERuYcX",
