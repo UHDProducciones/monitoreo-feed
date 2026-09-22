@@ -1,6 +1,17 @@
 window.FEED_DATA = {
-  "actualizado": "2026-09-22T11:08:49.000Z",
+  "actualizado": "2026-09-22T11:39:15.000Z",
   "posts": [
+    {
+      "id": "DdkpIwasHl1",
+      "cuenta": "gobiernodechile",
+      "red": "instagram",
+      "fecha": "2026-09-22T02:20:34.000Z",
+      "texto": "🇨🇱 Un día para celebrar nuestra historia.\n\nEn el marco de la conmemoración de la Toma de Posesión del Estrecho de Magallanes, el Gobierno de Chile estableció el 21 de septiembre como feriado regional en Magallanes, reconociendo la importancia de esta fecha para la identidad y la historia de sus habitantes.\n\nUna jornada para conmemorar y celebrar el orgullo de ser magallánico.",
+      "url": "https://www.instagram.com/interior.cl/reel/DdkpIwasHl1/",
+      "repost": true,
+      "autor_original": "interior.cl",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/791014223_18435577222180609_3005077368739729508_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=102&ig_cache_key=Mzk5MTQ5NjA5MTQwNzI1MTgyOTE4NDM1NTc3MjE2MTgwNjA5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEzMjAuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMyIn0%3D&_nc_ohc=FHa-s4Ti6MYQ7kNvwGUMQzG&_nc_oc=AdoXV1Pq5w_nAp6OeUwKkWnwi5KedsvVMpSUEiIFPnkT9K7If4XwYXnbM6CiJ5_N9Fk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=l-NZQ89JYRkruTUmfmihrA&_nc_ss=7a22e&oh=00_AQKNmH8Hte_8NzEoTRfkxoF8XAxMzV7a2m1a895nlxoxyQ&oe=6AB8573B"
+    },
     {
       "id": "DdkfoCogNM7",
       "cuenta": "presidente_kast",
