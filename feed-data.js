@@ -1,6 +1,77 @@
 window.FEED_DATA = {
-  "actualizado": "2026-09-22T19:08:32.000Z",
+  "actualizado": "2026-09-22T23:10:32.000Z",
   "posts": [
+    {
+      "id": "2102532762888765592",
+      "cuenta": "ContrapoderCH",
+      "red": "x",
+      "fecha": "2026-09-22T22:57:28.000Z",
+      "texto": "🔴LO LEÍSTE?| Está contratado como asesor por Gobierno de Kast: Registro del Poder Judicial revela que Romer Rubio no estaría habilitado para ejercer como abogado en Chile \nhttps://contrapoderchile.cl/esta-contratado-como-asesor-por-gobierno-de-kast-registro-del-poder-judicial-revela-que-romer-rubio-no-estaria-habilitado-para-ejercer-como-abogado-en-chile/…",
+      "url": "https://x.com/ContrapoderCH/status/2102532762888765592",
+      "imagen": "https://pbs.twimg.com/media/HS2yY6rW4AAztEl?format=png&name=small"
+    },
+    {
+      "id": "2102528355253772435",
+      "cuenta": "Gorderizador",
+      "red": "x",
+      "fecha": "2026-09-22T22:39:57.000Z",
+      "texto": "Arturo Squella presidente de Republicanos le acaba de quitar el piso a Manuel José Ossandon (RN) y a Johannes Kaiser (PNL) \nhttps://cronicasdelchilefome.com/ossandon-regularizacion-de-migrantes/… via @cdcf_chile",
+      "url": "https://x.com/Gorderizador/status/2102528355253772435"
+    },
+    {
+      "id": "2102517421458248007",
+      "cuenta": "DRESTRUM__Pl",
+      "red": "x",
+      "fecha": "2026-09-22T21:56:30.000Z",
+      "texto": "🔴 AHORA | Pdte. KAST emplaza a los que rechazaron norma que aceleraba las expulsiones: \"Tendrán que dar explicaciones. Nadie se debería negar a ordenar nuestra nación. El que entró por la ventana se tiene que ir\".",
+      "url": "https://x.com/DRESTRUM__Pl/status/2102517421458248007",
+      "imagen": "https://pbs.twimg.com/amplify_video_thumb/2102517207871684608/img/4ibAO1M4cFb2fUbV.jpg"
+    },
+    {
+      "id": "DdmshhMB6w9",
+      "cuenta": "gobiernodechile",
+      "red": "instagram",
+      "fecha": "2026-09-22T21:26:08.000Z",
+      "texto": "La primavera ya viene en camino ✨\n\nDe a poquito, los días se llenan de más luz, los colores vuelven a aparecer y los paisajes de Chile comienzan a florecer. 🌷🌿\n\nPorque cuando llega la primavera, nuestro país se transforma y nos regala postales cada vez más bonitas. 🇨🇱\n\n#ChileFlorece",
+      "url": "https://www.instagram.com/gobiernodechile/reel/DdmshhMB6w9/",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/796571221_18629043982041650_2017118068582209342_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=102&ig_cache_key=Mzk5MjA3MzkzNzEzNTA1Mzg4NTE4NjI5MDQzOTc5MDQxNjUw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEzMjAuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMyIn0%3D&_nc_ohc=cx0unT1f1qgQ7kNvwGBxCWW&_nc_oc=AdqRrbkXfu9G-LnQVU3Ls_D-mGqYBN8FO7sF8-eqAIe_iMD9JmDyk9u1NBpaRut9rmw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=ibnFSZ84b2VQI2MHeWtwQQ&_nc_ss=7a22e&oh=00_AQK6imi7VAqzwDyCh6jknlyRap27ZKtAq9P98TduY4D3Fw&oe=6AB8E720"
+    },
+    {
+      "id": "2102503917305372817",
+      "cuenta": "ElHiloCL",
+      "red": "x",
+      "fecha": "2026-09-22T21:02:51.000Z",
+      "texto": "🔷 Bueno, Pero igual Boric y Kast jamás van a estar a la altura del Doctor Salvador Allende Goessens quien llevó a cabo un discurso histórico ante la ONU con una ovación de 2 minutos de la Asamblea Repleta",
+      "url": "https://x.com/ElHiloCL/status/2102503917305372817",
+      "imagen": "https://pbs.twimg.com/media/HS2YKOnW0AEU80_?format=jpg&name=small"
+    },
+    {
+      "id": "Ddml5jUOj_-",
+      "cuenta": "ipoduje",
+      "red": "instagram",
+      "fecha": "2026-09-22T20:39:17.000Z",
+      "texto": "Tenemos buenas noticias para los vecinos del proyecto Jardines de Buin: sus casas podrán ser finalmente entregadas este viernes, tras problemas de burocracia. \n\nQuiero agradecer al alcalde y al director de Obras.\n\nEsto demuestra que la burocracia es un cáncer que destruye la esperanza y la economía. Con el alcalde, la delegada Presidencial Provincial y nuestros equipos estamos atacando directamente los problemas y dando soluciones.",
+      "url": "https://www.instagram.com/ipoduje/reel/Ddml5jUOj_-/",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/815734347_18338651329284946_9021019480716347553_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=1&ig_cache_key=Mzk5MjA0NDgwMjM2MTkzMzgyMjE4MzM4NjUxMzI2Mjg0OTQ2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEzMjAuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMyIn0%3D&_nc_ohc=SmUUh0VOvaIQ7kNvwHnJLp7&_nc_oc=AdrCq0AESkiMiqhicNc7yozjFvoJBMXaDd4RxiHEbq_xq9_2IVoc74alwxYp4nbAUiA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=sCtM-ur6X2xkuZ6Dli-lLA&_nc_ss=7a22e&oh=00_AQJllujyDlQ0feRDNGmlL1QYbOXmYxxg80PGjBhKpBkVTA&oe=6AB8D013"
+    },
+    {
+      "id": "Ddmgb5ZGTZm",
+      "cuenta": "presidente_kast",
+      "red": "instagram",
+      "fecha": "2026-09-22T19:39:42.000Z",
+      "texto": "Chile está de vuelta y hoy en Naciones Unidas hemos delineado el camino que el país está siguiendo para que Chile sea más seguro, libre y desarrollado.",
+      "url": "https://www.instagram.com/presidente_kast/p/Ddmgb5ZGTZm/",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/813986914_18076849568529444_6709248166378363856_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=1&ig_cache_key=Mzk5MjAyMDQ5NzQ1MTk0NDk2NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMiJ9&_nc_ohc=JdAnde-tCXUQ7kNvwHg-ZkA&_nc_oc=AdpvmrPAkYQOcxCI-gNpoxd63SjHvRpIQxcdlxOf2Pwpq6TwEIt9R355kWpKznbkbCQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=j4ciTuesGw73gu5ARk8X9A&_nc_ss=7a22e&oh=00_AQIqckl5qw4ee2dmCCkLS5jF4Pgx-0dQVQGiEAnIiF9Tyg&oe=6AB8D81C"
+    },
+    {
+      "id": "2102481039956586502",
+      "cuenta": "PresidenteKast",
+      "red": "x",
+      "fecha": "2026-09-22T19:31:56.000Z",
+      "texto": "Chile está de vuelta y hoy en Naciones Unidas hemos delineado el camino que el país está siguiendo para que Chile sea más seguro, libre y desarrollado.",
+      "url": "https://x.com/PresidenteKast/status/2102481039956586502",
+      "imagen": "https://pbs.twimg.com/media/HS2DV24WMAAXyrY?format=jpg&name=medium"
+    },
     {
       "id": "2102474519587979719",
       "cuenta": "Gorderizador",
