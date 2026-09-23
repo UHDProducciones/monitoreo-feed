@@ -1,6 +1,33 @@
 window.FEED_DATA = {
-  "actualizado": "2026-09-23T03:09:39.000Z",
+  "actualizado": "2026-09-23T11:07:47.000Z",
   "posts": [
+    {
+      "id": "DdoKagZjvxJ",
+      "cuenta": "gobiernodechile",
+      "red": "instagram",
+      "fecha": "2026-09-23T11:05:45.000Z",
+      "texto": "⏰😱 ¡Últimos días para usar tu Cupón de Gas Licuado!\n\n📣 Aún quedan 611.032 hogares que no han utilizado su cupón.\n\nSi ya activaste tu cupón y aún no lo has usado, aprovecha ahora: tienes hasta el 30 de septiembre para utilizar los $27.000 para comprar gas en los distribuidores adheridos. 🏠\n\n¡No te quedes sin usar este cupón!\nMás información en cupondegas.gob.cl.",
+      "url": "https://www.instagram.com/gobiernodechile/p/DdoKagZjvxJ/",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/810900385_18629205811041650_2186601614335061698_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=Mzk5MjQ4NjU2MjU2NTQyMjM0MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=OLpdEHauU0sQ7kNvwF5EB8Z&_nc_oc=Adr_cgz6mrPWMt9mDpLAJlMEOKP7qis4t0aTYaABJym-Zmj0_ipqnJhJbn19hScasZo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=2nxg5t3ihdKcs9YvMp4g7Q&_nc_ss=7a22e&oh=00_AQIxqIwvhAe4Ihxl9DUZztYLSLLFqGACD4N98ccvV4isOw&oe=6AB976E8"
+    },
+    {
+      "id": "2102597558199599121",
+      "cuenta": "DRESTRUM__Pl",
+      "red": "x",
+      "fecha": "2026-09-23T03:14:56.000Z",
+      "texto": "🔴 LA IMAGEN DE LA VERGÜENZA: La izquierda chilena celebró el rechazo de la norma que aceleraba las expulsiones de inmigrantes ilegales.",
+      "url": "https://x.com/DRESTRUM__Pl/status/2102597558199599121",
+      "imagen": "https://pbs.twimg.com/media/HS3tVXaWUAENKPP?format=jpg&name=medium"
+    },
+    {
+      "id": "2102596830710145530",
+      "cuenta": "Gorderizador",
+      "red": "x",
+      "fecha": "2026-09-23T03:12:03.000Z",
+      "texto": "Una pilsen para el CM de Chile Atiende",
+      "url": "https://x.com/Gorderizador/status/2102596830710145530",
+      "imagen": "https://pbs.twimg.com/amplify_video_thumb/2102596725399519232/img/XnjFDLYlZq1qp3cb.jpg"
+    },
     {
       "id": "2102594868115800179",
       "cuenta": "Gorderizador",
@@ -9,6 +36,14 @@ window.FEED_DATA = {
       "texto": "No me aguanté y me dio un ataque de risa en Proceres",
       "url": "https://x.com/Gorderizador/status/2102594868115800179",
       "imagen": "https://pbs.twimg.com/amplify_video_thumb/2102594717317767168/img/6on0GcBeRy6EfeLz.jpg"
+    },
+    {
+      "id": "2102589865464324473",
+      "cuenta": "ContrapoderCH",
+      "red": "x",
+      "fecha": "2026-09-23T02:44:22.000Z",
+      "texto": "🔴Lee el primer reportaje aquí",
+      "url": "https://x.com/ContrapoderCH/status/2102589865464324473"
     },
     {
       "id": "2102589596441932210",
