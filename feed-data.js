@@ -1,6 +1,70 @@
 window.FEED_DATA = {
-  "actualizado": "2026-09-22T23:10:32.000Z",
+  "actualizado": "2026-09-23T03:09:39.000Z",
   "posts": [
+    {
+      "id": "2102594868115800179",
+      "cuenta": "Gorderizador",
+      "red": "x",
+      "fecha": "2026-09-23T03:04:15.000Z",
+      "texto": "No me aguanté y me dio un ataque de risa en Proceres",
+      "url": "https://x.com/Gorderizador/status/2102594868115800179",
+      "imagen": "https://pbs.twimg.com/amplify_video_thumb/2102594717317767168/img/6on0GcBeRy6EfeLz.jpg"
+    },
+    {
+      "id": "2102589596441932210",
+      "cuenta": "ContrapoderCH",
+      "red": "x",
+      "fecha": "2026-09-23T02:43:18.000Z",
+      "texto": "🔴TRAS REPORTAJE DE CONTRAPODER| Fiscalía investiga oficio enviado por senadora Flores para agilizar trámite de su madre en Futrono",
+      "url": "https://x.com/ContrapoderCH/status/2102589596441932210"
+    },
+    {
+      "id": "DdnO5_CnIMx",
+      "cuenta": "gobiernodechile",
+      "red": "instagram",
+      "fecha": "2026-09-23T02:25:47.000Z",
+      "texto": "S.E. el Presidente de la República, José Antonio Kast Rist, realizó un punto de prensa para cerrar la jornada en la que expuso ante la Asamblea General de las Naciones Unidas. Acompañado del canciller Francisco Pérez Mackenna; el embajador ante la ONU, embajador Roberto Ampuero, y el embajador de Chile en EE.UU., Andrés Ergas.\n\nEl Mandatario abordó la adhesión de Chile a la iniciativa “Escudo de las Américas”, indicando que “adherimos a una coordinación conjunta de 15 países. Aquí no hay un tratado, para que nadie crea que estamos pasando a llevar la institucionalidad del país (...) buscamos la coordinación entre nosotros, compartir cierta información respecto de crimen organizado, por lo tanto, es una reunión de trabajo que se realizó”.\n\n“Resguardamos siempre nuestra soberanía, institucionalidad, por lo que en esta reunión no se tocó el tema de las intervenciones que eventualmente haga algún país para perseguir al terrorismo o crimen organizado”, aclaró el Presidente de la República, quien también señaló, y al abordar su discurso ante la Asamblea General, que nuestro país “está dando certeza jurídica para los que vayan a invertir en él”.\n\nSobre su futura reunión con la Presidenta encargada de Venezuela, el jefe de Estado afirmó: “Si podemos ir avanzando en relaciones diplomáticas lo haremos, siempre buscando mejorar la calidad de vida de todas las personas. Lo que vayamos a conversar se comunicará en su momento y cuando corresponda”.",
+      "url": "https://www.instagram.com/oficinapresidentekast/p/DdnO5_CnIMx/",
+      "repost": true,
+      "autor_original": "oficinapresidentekast",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/820432223_18091763354444358_8232564263068824168_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=Mzk5MjIyNDU1MTM3MjM2MzI2OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMiJ9&_nc_ohc=l7IvG3Qii7wQ7kNvwGsAxH9&_nc_oc=AdqrHBTWIzKu7iAT4HZp8bCZ15-4CUjlNaNsejvK8a6U5zAhInZl06zNBiiIk9IwGGM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=7Pa-t5tt1EoW2Q1mhzDBmQ&_nc_ss=7a22e&oh=00_AQJC-N6yrlejIAW7iSII0rvcqEl0ygDzmecuOkoKHr-9XQ&oe=6AB8FD48"
+    },
+    {
+      "id": "2102576430362116576",
+      "cuenta": "ElHiloCL",
+      "red": "x",
+      "fecha": "2026-09-23T01:50:59.000Z",
+      "texto": "🔴 URGENTE/DESASTRE\n\n🔷 Encuesta Data Influye, Septiembre de 2026\n\n😍 Aprobación a Kast: 25% (-11)\n🤮 Desaprobación a Kast: 62% (+1)\n\n#RenunciaKast\n#ChupaloKast",
+      "url": "https://x.com/ElHiloCL/status/2102576430362116576",
+      "imagen": "https://pbs.twimg.com/media/HS3aHgGWAAACs98?format=jpg&name=medium"
+    },
+    {
+      "id": "DdnICPpOA5q",
+      "cuenta": "martin.arrau",
+      "red": "instagram",
+      "fecha": "2026-09-23T01:29:53.000Z",
+      "texto": "Para hacer efectivas las expulsiones de migrantes irregulares, el Estado necesita mejores herramientas y el compromiso de todas sus instituciones.\n\nLas fiscalizaciones continuarán y nuestras policías seguirán desplegadas haciendo la pega. Hemos reducido en más de un 86% los ingresos irregulares, pero proteger la frontera no basta: también debemos hacer cumplir las expulsiones.\n\nLlamamos a los parlamentarios que hoy se opusieron a dar mejores herramientas al Estado para un control migratorio efectivo, a recapacitar. La propuesta buscaba ampliar el plazo actual de cinco días para materializar una expulsión y permitir que las resoluciones del Estado efectivamente se cumplan.",
+      "url": "https://www.instagram.com/martin.arrau/reel/DdnICPpOA5q/",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/810996459_18365718826244873_6965759903704677637_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=103&ig_cache_key=Mzk5MjE5NDkzMzI5NTk0MzI3NDE4MzY1NzE4ODIwMjQ0ODcz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEzMjAuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMyIn0%3D&_nc_ohc=XozeOTq1Kp4Q7kNvwEcUFfE&_nc_oc=Adr-GtdL8XWLrUA2MUTHIVZwZZHwHqnySUBFK7jRTzs2tAVnGB5rvHE4JDX4AHPSxH0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=7QQRtJfqzyDaCd9UkaHcgw&_nc_ss=7a22e&oh=00_AQKcmZjWDW6QPAubHSWxwzlNy3FiHsxnak3YXdTW1rJJIA&oe=6AB92DC1"
+    },
+    {
+      "id": "DdnEQZMhzBo",
+      "cuenta": "ipoduje",
+      "red": "instagram",
+      "fecha": "2026-09-23T00:53:59.000Z",
+      "texto": "26 años esperando ya es demasiado. \n\nHoy estuvimos en Paine, junto al alcalde Rodrigo Contreras, visitando el proyecto Hospital 2000 y conversando con las familias.\n\nNos comprometimos con una fecha: el 30 de octubre estaremos acá para acompañarlos en la tan esperada entrega de sus viviendas\n\nPara cumplirla, tenemos cuatro tareas: destrabar el acuerdo con la cooperativa de agua, agilizar la inspección sanitaria, coordinar con el MOP la certificación y pedir a la constructora una propuesta para entregar las casas terminadas.\n\nDespués de 26 años y seis postergaciones, estas familias merecen recibir las llaves de su casa.",
+      "url": "https://www.instagram.com/ipoduje/reel/DdnEQZMhzBo/",
+      "imagen": "https://scontent-scl3-1.cdninstagram.com/v/t51.82787-15/793351383_18338673934284946_1054212795835608353_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&ig_cache_key=Mzk5MjE3ODMxMzQzODYzODE4NDE4MzM4NjczOTI4Mjg0OTQ2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzIifQ%3D%3D&_nc_ohc=VawMfD_Z9C0Q7kNvwHxrFcA&_nc_oc=AdrGz_Hciy1OerE1unBC_BwTQVe_C3V7cV2HKOXSx7k6F12702jldfderlA2pt5oeak&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-scl3-1.cdninstagram.com&_nc_gid=bzSI7b12tkEsZJgen-IMhA&_nc_ss=7a22e&oh=00_AQIP9v64PLvPSdCZ8mp4vphiZPzahhwhVVxbiR9elaCY7Q&oe=6AB9047F"
+    },
+    {
+      "id": "2102553824896471310",
+      "cuenta": "PresidenteKast",
+      "red": "x",
+      "fecha": "2026-09-23T00:21:10.000Z",
+      "texto": "El crimen organizado no reconoce fronteras y combatirlo exige coordinación entre los países. Por eso Chile ha decidido adherir al Escudo de las Américas, una instancia de cooperación internacional para enfrentar con mayor eficacia al narcotráfico y al crimen organizado",
+      "url": "https://x.com/PresidenteKast/status/2102553824896471310",
+      "imagen": "https://pbs.twimg.com/media/HS3FjvAXsAEIjrc?format=jpg&name=medium"
+    },
     {
       "id": "2102532762888765592",
       "cuenta": "ContrapoderCH",
